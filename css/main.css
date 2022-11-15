@@ -1,3 +1,10 @@
 body {
     transition: background 500ms;
 }
+
+button {
+    border-radius: 15px;
+    background-color: lavender;
+    width: 8rem;
+    height: 2rem;
+}
