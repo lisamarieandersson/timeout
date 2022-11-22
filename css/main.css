@@ -1,10 +1,17 @@
 body {
     transition: background 500ms;
+    font-family: 'Space Mono', monospace;
+    margin-top: 5rem;
+    margin-left: 5rem;
 }
 
 button {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
     border-radius: 15px;
-    background-color: lavender;
-    width: 8rem;
-    height: 2rem;
+    background-color: lightskyblue;
+    border-style: none;
+    width: 10rem;
+    height: 5rem;
+    padding: 0.5rem;
 }

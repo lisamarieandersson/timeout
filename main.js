@@ -2,8 +2,10 @@ window.addEventListener("DOMContentLoaded", main);
 
 let timeoutRef;
 
+/**
+ * Här startar programmet 
+ */
 function main() {
-    //Start på programmet 
     timeoutRef = setTimeout(changeBackgroundColor, 2000);
     setupEventListeners();
 }
@@ -34,11 +36,11 @@ function getRandomColor() {
     if (value <0.2) {
         return "blue";
     }   else if (value < 0.4) {
-        return "red";
+        return "mistyrose";
     }   else if (value < 0.6) {
-        return "green";
+        return "lemonchiffon";
     }   else if (value < 0.8) {
-        return "grey";
+        return "lavender";
     }   else {
         return "pink";
     }
